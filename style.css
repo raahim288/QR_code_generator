@@ -1,0 +1,49 @@
+
+.r{
+    text-align: center;
+    color: white;
+    background-color: gray;
+    margin:  20px 200px ;
+   
+}
+.s{
+ 
+    margin-top: 30px;
+}
+.card-title{
+    background-color: white;
+    color: white;
+}
+  .card-body {
+   
+    width: 300px;
+    height: 350px;
+    background-color: black;
+    
+    
+      }
+  
+  #box {
+    
+    max-height: 0;
+    transition: max-height 1s ease; 
+    background-color: white;
+   
+  }
+  
+  #box.show {
+    max-height: 160px; 
+    
+  }
+  
+  #qrimg {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+   
+  }
+  *{
+    background-color: black;
+  }
+  
+
